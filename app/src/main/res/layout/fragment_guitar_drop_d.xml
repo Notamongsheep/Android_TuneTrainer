@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.christineberger.android.tunetrainer.GuitarDropD">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorDark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:srcCompat="@drawable/dropd"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/rounded_corners"
+                android:padding="8dp"
+                android:text="@string/str_instr"
+                android:textColor="@color/colorDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_dropd_low_d"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorLowD"
+                    android:text="@string/str_d"
+                    android:textColor="@color/colorLight"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/btn_dropd_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorA"
+                    android:text="@string/str_a"
+                    android:textColor="@color/colorLight"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/btn_dropd_high_d"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorHighD"
+                    android:text="@string/str_d"
+                    android:textColor="@color/colorLight"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/btn_dropd_g"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorG"
+                    android:text="@string/str_g"
+                    android:textColor="@color/colorLight"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/btn_dropd_b"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorB"
+                    android:text="@string/str_b"
+                    android:textColor="@color/colorLight"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/btn_dropd_e"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorHighE"
+                    android:text="@string/str_e"
+                    android:textColor="@color/colorLight"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                    android:text="@string/str_dropd_tuning"
+                    android:textColor="@color/colorLight"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

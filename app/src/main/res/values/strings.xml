@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tune Trainer</string>
+
+    <!-- Buttons -->
+    <string name="str_uke_btn">Ukulele</string>
+    <string name="str_stnd_btn">Standard Guitar</string>
+    <string name="str_dropd_btn">Drop D Guitar</string>
+    <string name="str_about_btn">About</string>
+
+    <!-- All Fragments -->
+    <string name="str_a">A</string>
+    <string name="str_b">B</string>
+    <string name="str_c">C</string>
+    <string name="str_d">D</string>
+    <string name="str_e">E</string>
+    <string name="str_g">G</string>
+    <string name="str_instr">Press any note below to hear the tone. Then, tune your instrument to the same pitch.</string>
+
+    <!-- About Fragment -->
+    <string name="str_about_tt_title">About Tune Trainer</string>
+    <string name="str_about_notes">About Scientific Pitch Notation:</string>
+    <string name="str_about_tt_content">Tune Trainer helps you tune your instrument and train your ears by playing the sound of each string for various popular tuning styles. Just press the colored buttons and start training your ears to hear distinct pitches like a pro.</string>
+    <string name="str_about_notes_content"><b>Scientific Pitch Notation</b> (SPN) combines the name of the note and the number of the octave. <b>Octaves</b> are a specific range of notes. The notes in these groups are determined by the vibrations which describe the highness or lowness of the tones.\n\n Consider traditional piano keys (scroll horizontally to see the whole image):</string>
+    <string name="str_about_notes_content2">Each color group is a different octave. On the left, it starts with Octave 1 and goes up to Octave 7, the pitch going from low to high. Now let\'s look at Octaves 2, 3, and 4:</string>
+    <string name="str_about_notes_content3">The tuning notes you\'ll find in this application reside in these octaves. Remember, when you see something like \'C4\', this is called <b>Scientific Pitch Notation</b>. The \'C\' is the note\'s name. The number is the note\'s octave. Enjoy!</string>
+
+    <!-- Ukulele Fragment -->
+    <string name="str_uke_tuning">Tenor, Concert, and Soprano Ukuleles use the standard Ukulele tuning of GCEA. These notes are also known as G4, C4, E4, and A4.</string>
+
+    <!-- Standard Guitar Fragment -->
+    <string name="str_stnd_tuning">Guitars use the standard tuning of EADGBE. These notes are also known as E2, A2, D3, G3, B3, and E4. Notice that the octaves vary. The low E and A are in the second octave. D, G, and B are in the third octave. The high E is in the 4th octave.</string>
+
+    <!-- Drop D Guitar Fragment -->
+    <string name="str_dropd_tuning">Drop D tuning is a staple tuning style of guitars. It gives chords a unique sound and can be easily played without changing the configuration of your fingers (This is called the <b>\"shape\"</b>). It\'s also extremely easy to tune. This makes Drop D tuning incredibly popular in all genres of music.\n\nDrop D tuning <b>only</b> changes the 6th string, E2, from standard tuning by taking the pitch a step down. This converts it to D2.</string>
+
+</resources>

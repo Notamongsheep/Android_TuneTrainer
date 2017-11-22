@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.christineberger.android.tunetrainer.About">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorDark"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#202020">
+
+            <TextView
+                android:id="@+id/about_tt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="8dp"
+                android:text="@string/str_about_tt_title"
+                android:textColor="@color/colorLight"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/about_tune_trainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about_tt_title"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="false"
+                android:layout_marginBottom="16dp"
+                android:text="@string/str_about_tt_content"
+                android:textColor="#ffffff"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/about_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/about_tune_trainer"
+                android:layout_marginBottom="8dp"
+                android:text="@string/str_about_notes"
+                android:textColor="@color/colorLight"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/about_notes_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/about_notes"
+                android:layout_marginBottom="16dp"
+                android:text="@string/str_about_notes_content"
+                android:textColor="@color/colorLight"
+                android:textSize="16dp"/>
+
+            <HorizontalScrollView
+                android:id="@+id/piano_octaves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/about_notes_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/octaves"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/about_notes_content2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/piano_octaves"
+                android:layout_marginBottom="16dp"
+                android:text="@string/str_about_notes_content2"
+                android:textColor="@color/colorLight"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/three_octaves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about_notes_content2"
+                app:srcCompat="@drawable/three_octaves"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/three_octaves"
+                android:paddingBottom="30dp"
+                android:text="@string/str_about_notes_content3"
+                android:textColor="@color/colorLight"
+                android:textSize="16dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
